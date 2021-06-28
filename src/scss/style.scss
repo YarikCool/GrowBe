@@ -1,0 +1,19 @@
+@import "bootstrap-reboot";
+@import "base/vars";
+@import "base/mixins";
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@import "blocks/buttons";
+@import "blocks/forms";
+@import "blocks/menu";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/brands";
+@import "blocks/solution";
+@import "media";

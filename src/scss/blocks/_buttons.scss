@@ -1,0 +1,15 @@
+.btn {
+  width: 120px;
+  height: 40px;
+  background: #f25822;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $white-color;
+  border: none;
+  transition: 0.4 all;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  &:active {
+    transform: scale(0.97);
+  }
+}

@@ -1,0 +1,39 @@
+.header {
+  margin-top: 40px;
+}
+
+.header__logo {
+  text-decoration: none;
+}
+
+.header__logo-text {
+  display: inline-block;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 14px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  span {
+    color: $main-color;
+  }
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  max-width: 690px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header__left {
+  position: relative;
+}
